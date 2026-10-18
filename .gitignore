@@ -1,0 +1,22 @@
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local database exports and backups
+*.sql
+*.dump
+*.bak
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
